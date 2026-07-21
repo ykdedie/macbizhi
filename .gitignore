@@ -1,0 +1,53 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+
+# JetBrains / VS Code
+.idea/
+.vscode/
+*.iml
+
+# Python 虚拟环境和缓存
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python 构建和发布产物
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Swift / Xcode 构建产物
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# macOS 应用和安装包构建产物
+*.app/
+*.dmg
+*.pkg
+
+# 抖音链接和本地下载的视频
+video_urls.txt
+video_1440p_*.mp4
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+*.swp
+*~
