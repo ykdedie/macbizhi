@@ -2,6 +2,14 @@
 
 这是一个面向 macOS 的抖音动态壁纸工具。它可以从抖音网页提取所选视频的高清地址，下载视频，在原生 macOS 应用中预览，并把视频静音循环播放为桌面动态壁纸。
 
+## 下载
+
+[下载最新版 macOS 安装包（DMG）](https://github.com/ykdedie/macbizhi/releases/latest/download/DynamicWallpaperVideoTool.dmg)
+
+项目地址：[ykdedie/macbizhi](https://github.com/ykdedie/macbizhi)
+
+> 当前仓库尚未发布 Release。创建 Release 并上传名为 `DynamicWallpaperVideoTool.dmg` 的安装包后，上面的直接下载按钮即可使用。
+
 ## 系统要求
 
 - Apple Silicon Mac（M1、M2、M3、M4 或更新芯片）
@@ -12,7 +20,7 @@
 
 | 文件 | 功能 |
 | --- | --- |
-| `动态壁纸视频工具.dmg` | 安装镜像。打开后把应用拖入“应用程序”文件夹即可安装。 |
+| `DynamicWallpaperVideoTool.dmg` | 安装镜像。打开后把应用拖入“应用程序”文件夹即可安装。 |
 | `DynamicWallpaperVideoTool.swift` | macOS 应用的 SwiftUI 源代码。 |
 | `dy_extract_hd_urls.js` | 抖音网页辅助脚本，用来监听视频接口、选择视频并生成 `video_urls.txt`。 |
 | `down_video.py` | 可选的 Python 命令行下载器；正常使用图形应用时不需要运行。 |
@@ -21,7 +29,7 @@
 
 ## 安装应用
 
-1. 双击 `动态壁纸视频工具.dmg`。
+1. 下载并双击 `DynamicWallpaperVideoTool.dmg`。
 2. 在打开的窗口中，将“动态壁纸视频工具”拖到“Applications（应用程序）”文件夹。
 3. 在 Finder 的“应用程序”中打开“动态壁纸视频工具”。
 4. 如果 macOS 首次运行时提示无法验证开发者，请在应用上点右键，选择“打开”，然后再次确认。该安装包使用本机临时签名，没有 Apple Developer ID 公证。
